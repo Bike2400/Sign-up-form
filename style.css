@@ -10,8 +10,8 @@ h2{
 
 img{
     padding: 10px;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
 }
 
 .main{
@@ -71,8 +71,8 @@ padding-top: 30px;
     box-shadow:  0 10px 20px -2px rgb(22 22 22);;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
-    gap: 20px;
+    padding: 55px;
+    gap: 30px;
 }
 
 .input{
@@ -102,10 +102,26 @@ button{
     font-size: 20px;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+}
+
 a{
     text-decoration: none;
     color:black;
     font-weight: 700;
+}
+
+.error{
+    color: red;
+   font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    width: 200px;
+    font-size: .7rem;
+    padding: 5px;
+    
 }
 
 @media screen and (max-width: 950px){
