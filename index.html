@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main">
+    <div class="left-section">
+        <div class="logo">
+            <img src="Company logo.jpeg" alt="Comapny Logo">
+            <h2>SIGN-UP FORM</h2>
+        </div>
+
+    </div>
+
+    <div class="right-section">
+        <div class="brief-talk">
+            <p class="brief">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+            <p class="brief">You know you want to</p>
+        </div>
+        <form action="#">
+            <div class="form-section">
+                <p class="form-title">Cheerio!</p>
+                <div class="input">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required>
+
+                </div>
+                <div class="input">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required>
+                  
+                </div>
+                <div class="input">
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                  
+                </div>
+                <div class="input">
+                    <label for="phone-number">Phone Number:</label><br>
+                    <input type="text" id="phone-number" name="phone-number" minlength="9" maxlength="9">
+                  
+                </div>
+                <div class="input">
+                    <label for="pwd1">Password:</label><br>
+                    <input type="password" id="pwd1" name="pwd1" required>
+                </div>
+                <div class="input">
+                    <label for="pwd2">Confirm Password:</label><br>
+                    <input type="password" id="pwd2" name="pwd2" required>
+                </div>
+             </div>
+             <div class="Submit">
+                 <button type="submit">Create Account</button>
+                 <p>Already have an account? <a href="#">Log in</a></p>
+             </div>
+            
+        </form>
+   </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
